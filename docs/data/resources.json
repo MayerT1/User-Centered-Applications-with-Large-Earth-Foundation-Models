@@ -10,6 +10,16 @@
     ]
   },
   {
+    "category": "Towards Impact",
+    "items": [
+      {
+        "title": "Solution Co-Development Toolkit",
+        "url": "https://science.data.nasa.gov/earth-science-solution-co-development-toolkit/",
+        "note": "This Solution Co-Development Toolkit was created as a resource for NASA-affiliated scientists of all levels to advance efforts in collaborative, applied Earth science. Its design prioritizes clear, actionable steps and tools for planning, conducting, and communicating scientific collaborations with partners and beneficiaries. This Toolkit was envisioned to demystify collaborative development, because collaboration is what builds the public trust necessary for Earth science to achieve the greatest societal good."
+      }
+    ]
+  },
+  {
     "category": "Data",
     "items": [
       {
