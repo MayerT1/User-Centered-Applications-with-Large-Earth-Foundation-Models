@@ -1,0 +1,10 @@
+# One entry per attendee project. Add yours via PR or the "Project Submission" issue form.
+# slug: short unique id, lowercase-hyphen, used for mirrors/<slug> if mirrored.
+
+- slug: example-crop-health
+  title: "Example: Crop Health Mapping (placeholder)"
+  team: [Jane Doe, John Smith]
+  repo_url: https://github.com/example/crop-health
+  hf_model_url: https://huggingface.co/example/crop-health-model
+  description: Placeholder project showing what a submission card looks like — fine-tunes a foundation model to flag crop stress from satellite imagery.
+  mirrored: false

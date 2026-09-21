@@ -1,0 +1,22 @@
+# Who's who. image: filename under docs/assets/people/ (or a full URL). Leave blank for placeholder avatar.
+
+- name: Tim Mayer
+  role: Organizer — Research Scientist / Lead Data Scientist, NASA EarthRISE, UAH
+  image: ""
+  links:
+    github: https://github.com/mayert1
+
+- name: TBD Speaker
+  role: Keynote Speaker (placeholder)
+  image: ""
+  links: {}
+
+- name: TBD Mentor
+  role: Mentor (placeholder)
+  image: ""
+  links: {}
+
+- name: TBD Organizer
+  role: Organizing Committee (placeholder)
+  image: ""
+  links: {}

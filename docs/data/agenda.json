@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "label": "Day 1",
+    "date": "TBD — placeholder",
+    "items": [
+      { "time": "8:30 AM", "title": "Registration & Coffee", "speaker": "", "description": "Check in, grab a badge, get settled." },
+      { "time": "9:00 AM", "title": "Welcome & Opening Remarks", "speaker": "Tim Mayer", "description": "Event overview, goals, and logistics." },
+      { "time": "9:30 AM", "title": "Keynote: Large Earth Foundation Models", "speaker": "TBD Speaker", "description": "State of the field and where user-centered applications fit in." },
+      { "time": "10:30 AM", "title": "Break", "speaker": "", "description": "" },
+      { "time": "10:45 AM", "title": "Hands-On: Fine-Tuning a Foundation Model", "speaker": "TBD Speaker", "description": "Workshop session — bring a laptop." },
+      { "time": "12:00 PM", "title": "Lunch", "speaker": "", "description": "" },
+      { "time": "1:00 PM", "title": "Team Build & Project Kickoff", "speaker": "", "description": "Form teams, scope a user-centered application idea." },
+      { "time": "3:00 PM", "title": "Office Hours / Mentoring", "speaker": "Mentors", "description": "Drop-in help from mentors and organizers." },
+      { "time": "5:00 PM", "title": "Day 1 Wrap-Up", "speaker": "", "description": "" }
+    ]
+  },
+  {
+    "label": "Day 2",
+    "date": "TBD — placeholder",
+    "items": [
+      { "time": "9:00 AM", "title": "Build Time", "speaker": "", "description": "Continue project work." },
+      { "time": "12:00 PM", "title": "Lunch", "speaker": "", "description": "" },
+      { "time": "1:00 PM", "title": "Submission Deadline", "speaker": "", "description": "Repo + Hugging Face model links due (see Submit page)." },
+      { "time": "1:30 PM", "title": "Project Demos", "speaker": "All Teams", "description": "Lightning demos of what was built." },
+      { "time": "3:00 PM", "title": "Judging & Awards", "speaker": "Organizers", "description": "" },
+      { "time": "3:30 PM", "title": "Closing Remarks", "speaker": "Tim Mayer", "description": "Thanks, next steps, and how projects live on after the event." }
+    ]
+  }
+]
