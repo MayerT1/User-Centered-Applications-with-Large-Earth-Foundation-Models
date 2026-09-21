@@ -1,0 +1,10 @@
+# One entry per attendee project. Add yours via PR or the "Project Submission" issue form.
+# slug: short unique id, lowercase-hyphen, used for mirrors/<slug> if mirrored.
+#
+# - slug: example-team
+#   title: Example Project Title
+#   team: [Jane Doe, John Smith]
+#   repo_url: https://github.com/janedoe/example-repo
+#   hf_model_url: https://huggingface.co/janedoe/example-model
+#   description: One or two sentences on what this does.
+#   mirrored: false   # set true once scripts/add_mirror.sh has been run for this slug

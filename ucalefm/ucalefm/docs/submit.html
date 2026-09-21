@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Submit — UCALEFM</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <h1>User-Centered Applications with Large Earth Foundation Models</h1>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="agenda.html">Agenda</a>
+      <a href="who-is-who.html">Who's Who</a>
+      <a href="resources.html">Resources</a>
+      <a href="submit.html" class="active">Submit</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h2 class="page-title">Submit Your Project</h2>
+  <p class="page-lede">
+    Keep your code in your own GitHub repo and your model on Hugging Face Hub.
+    Submit the links here so your project shows up on the site.
+  </p>
+
+  <div class="card">
+    <h3>Option A — Issue form (recommended)</h3>
+    <p>Open a
+      <a href="https://github.com/REPLACE_ORG/REPLACE_REPO/issues/new?template=submission.yml">
+        "Project Submission" issue
+      </a>
+      with your repo URL, Hugging Face model URL, team, and a short description.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Option B — Pull request</h3>
+    <p>Add an entry to
+      <code>registry/submissions.yaml</code> directly and open a PR:</p>
+    <pre><code>- slug: your-team-slug
+  title: Your Project Title
+  team: [Your Name, Teammate Name]
+  repo_url: https://github.com/you/your-repo
+  hf_model_url: https://huggingface.co/you/your-model
+  description: One or two sentences on what it does.
+  mirrored: false</code></pre>
+    <p>Once merged, the site updates automatically.</p>
+  </div>
+
+  <div class="card">
+    <h3>Want your repo mirrored into this project?</h3>
+    <p>
+      Check the "mirroring" box on the issue form (or say so in your PR).
+      A maintainer will run <code>scripts/add_mirror.sh &lt;slug&gt; &lt;repo-url&gt;</code>
+      to add your repo as a live submodule under <code>mirrors/&lt;slug&gt;</code> —
+      it stays linked to your repo, so your later commits can be pulled in on
+      request without you re-uploading anything.
+    </p>
+  </div>
+</main>
+<footer>User-Centered Applications with Large Earth Foundation Models</footer>
+</body>
+</html>

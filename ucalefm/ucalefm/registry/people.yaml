@@ -1,0 +1,8 @@
+# Who's who. image: filename under docs/assets/people/ (or a full URL).
+#
+# - name: Tim Mayer
+#   role: Organizer — Research Scientist / Lead Data Scientist, NASA EarthRISE, UAH
+#   image: tim-mayer.jpg
+#   links:
+#     github: https://github.com/
+#     website: https://

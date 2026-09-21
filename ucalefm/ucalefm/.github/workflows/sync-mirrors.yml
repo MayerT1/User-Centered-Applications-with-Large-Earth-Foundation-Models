@@ -1,0 +1,33 @@
+name: Sync mirrors
+
+# Pulls the latest commit for every submodule under mirrors/ and commits
+# the updated pointers. Run manually, or on a schedule during the event.
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 13 * * *" # daily 13:00 UTC; adjust/remove for your event window
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Update all mirrors to latest
+        run: |
+          git submodule sync --recursive
+          git submodule update --remote --init --recursive
+
+      - name: Commit updated pointers
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add mirrors
+          git diff --cached --quiet || git commit -m "chore: sync mirrors [skip ci]"
+          git push

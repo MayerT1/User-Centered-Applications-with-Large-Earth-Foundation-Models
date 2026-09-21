@@ -1,0 +1,22 @@
+# Curated resources page. category groups items on the Resources page.
+#
+- category: Foundation Models
+  items:
+    - title: Prithvi (NASA/IBM Geospatial Foundation Model)
+      url: https://huggingface.co/ibm-nasa-geospatial
+      note: Hugging Face org hosting the Prithvi Earth-observation foundation models.
+- category: Data
+  items:
+    - title: NASA Earthdata Search
+      url: https://search.earthdata.nasa.gov/
+      note: Search/download NASA Earth science data.
+- category: Compute
+  items:
+    - title: Hugging Face Spaces
+      url: https://huggingface.co/spaces
+      note: Free/low-cost hosting for model demos.
+- category: Event
+  items:
+    - title: Submission form
+      url: submit.html
+      note: How to submit your repo + model.

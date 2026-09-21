@@ -1,0 +1,43 @@
+name: Project Submission
+description: Submit your repo + Hugging Face model for the event site.
+title: "[Submission] "
+labels: ["submission"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Project title
+    validations:
+      required: true
+  - type: input
+    id: team
+    attributes:
+      label: Team members (comma-separated)
+    validations:
+      required: true
+  - type: input
+    id: repo_url
+    attributes:
+      label: GitHub repo URL (your own repo)
+      placeholder: https://github.com/you/your-repo
+    validations:
+      required: true
+  - type: input
+    id: hf_model_url
+    attributes:
+      label: Hugging Face model URL
+      placeholder: https://huggingface.co/you/your-model
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One or two sentence description
+    validations:
+      required: true
+  - type: checkboxes
+    id: mirror
+    attributes:
+      label: Mirroring
+      options:
+        - label: I'd like my repo mirrored into this project's repo (as a git submodule under mirrors/).
